@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  position: relative;
+  background-color: #faf5c2;
+}
+.container {
+  position: fixed;
+  /* display: block; */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 350px;
+  height: 440px;
+  margin: auto;
+  background-color: #acc90896;
+  border-radius: 15px;
+  box-shadow: -12px -12px 16px #ffffff, 10px 10px 16px #3c3c3c;
+}
+.logo-container {
+  margin: 25px auto;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* background-color: #f0ebfd; */
+  background-color: #e0e4de;
+  box-shadow: -4px -4px 12px #ffffff, 4px 4px 8px #3c3c3c;
+}
+.twitter-icon {
+  font-size: 58px;
+  color: #43c1fc;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+p {
+  font-size: 20px;
+  margin: 35px 5px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.input-container {
+  position: relative;
+  width: 260px;
+  margin: 45px auto;
+  text-align: center;
+}
+.input-field {
+  width: 240px;
+  text-align: left;
+  display: block;
+  position: relative;
+  margin-top: 10px;
+}
+label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+input {
+  width: 250px;
+  height: 40px;
+  display: block;
+  position: relative;
+  margin: 3px auto 15px;
+  padding: 0 10px;
+  font-size: 12px;
+  border-radius: 18px;
+  background-color: #e9eee6;
+  border: 1px solid #fff;
+  box-shadow: inset -4px -4px 4px #fff, inset 2px 2px 2px #373737;
+  cursor: pointer;
+}
+input:focus {
+  outline: 1px solid #fff;
+  border-radius: 18px;
+}
+.submit-button {
+  margin: 35px 3px;
+  width: 240px;
+  background-color: #43c1fc;
+  box-shadow: none;
+  border-color: #2bb6f7;
+  box-shadow: -4px -4px 8px #edfcb9, 2px 2px 6px #373737;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.submit-button:focus {
+  outline: none;
+}
+.submit-button:active {
+  animation: 0.3s zoom-out cubic-bezier(0, 0, 0.25, 1) forwards;
+}
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
